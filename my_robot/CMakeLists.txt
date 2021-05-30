@@ -32,12 +32,16 @@ if(BUILD_TESTING)
 endif()
 
 xacro_add_files("urdf/my_robot.urdf.xacro" INSTALL DESTINATION urdf/)
+# xacro_add_files("urdf/my_robot.gazebo" INSTALL DESTINATION urdf/)
 
 install(
   DIRECTORY
     launch
     worlds
     urdf
+    meshes
+  # FILES
+  #   model.config
   DESTINATION
     share/${PROJECT_NAME}/
 )
