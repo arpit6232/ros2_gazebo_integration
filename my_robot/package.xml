@@ -12,6 +12,10 @@
 
   <exec_depend>gazebo_ros_pkgs</exec_depend>
   <exec_depend>ros2launch</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>ros2run</exec_depend>
+
+  
 
   <depend>rclcpp</depend>
 
